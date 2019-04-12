@@ -9,13 +9,19 @@
 
 <html>
 <head>
-  <title>Add Numbers</title>
+  <title>Math Webpage</title>
 </head>
 <body>
   <form action="add">
     Enter First Number : <input type="text" name="num1"><br>
     Enter Second Number : <input type="text" name="num2"><br>
-    <input type="submit">
+    <input type="submit" value="Add Numbers">
+  </form>
+<br><br>
+    <form action="subtract">
+      Enter First Number : <input type="text" name="num3"><br>
+      Enter Second Number : <input type="text" name="num4"><br>
+      <input type="submit" value="Subtract Numbers">
   </form>
 </body>
 </html>

@@ -13,4 +13,15 @@
         <url-pattern>/add</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>sub</servlet-name>
+        <servlet-class>Subtract</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sub</servlet-name>
+        <url-pattern>/subtract</url-pattern>
+    </servlet-mapping>
+
 </web-app>
