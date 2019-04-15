@@ -12,16 +12,17 @@
   <title>Math Webpage</title>
 </head>
 <body>
-  <form action="add">
+  <form action="math">
     Enter First Number : <input type="text" name="num1"><br>
     Enter Second Number : <input type="text" name="num2"><br>
-    <input type="submit" value="Add Numbers">
-  </form>
-<br><br>
-    <form action="subtract">
-      Enter First Number : <input type="text" name="num3"><br>
-      Enter Second Number : <input type="text" name="num4"><br>
-      <input type="submit" value="Subtract Numbers">
+
+
+      <input type="radio" name="operation" value="Add"> Add<br>
+      <input type="radio" name="operation" value="Subtract"> Subtract<br>
+      <input type="radio" name="operation" value="Multiply"> Multiply<br>
+      <input type="radio" name="operation" value="Divide"> Divide<br>
+
+    <input type="submit" value="Submit">
   </form>
 </body>
 </html>
