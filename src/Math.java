@@ -8,7 +8,18 @@ import java.io.IOException;
 @WebServlet(name = "Math")
 public class Math extends HttpServlet {
 
+    private static double  factorial(double n){
+        if (n == 0)
+            return 1;
+        else
+            return (n * factorial(n-1));
+    }
+
     private double math(double num1, double num2, String operation) {
+
+        if (operation.equals("Fact")) {
+            return factorial(num1);
+        }
 
         if (operation.equals("Add")) {
             return num1 + num2;
