@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+l
 <html>
 <head>
   <title>Math Webpage</title>
@@ -21,7 +21,7 @@
       <input type="radio" name="operation" value="Subtract"> Subtract<br>
       <input type="radio" name="operation" value="Multiply"> Multiply<br>
       <input type="radio" name="operation" value="Divide"> Divide<br>
-      <input type="radio" name="operation" value="Fact"> Factoral of Number One<br>
+      <input type="radio" name="operation" value="Fact"> Factoral of Number O<br>
 
 
     <input type="submit" value="Submit">
