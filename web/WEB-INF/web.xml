@@ -3,15 +3,36 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-<servlet>
-    <servlet-name>abc</servlet-name>
-    <servlet-class>Math</servlet-class>
-</servlet>
+    <servlet>
+        <servlet-name>abc</servlet-name>
+        <servlet-class>MathServlet</servlet-class>
+    </servlet>
 
-<servlet-mapping>
-    <servlet-name>abc</servlet-name>
-    <url-pattern>/math</url-pattern>
-</servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>abc</servlet-name>
+        <url-pattern>/math</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SortingServlet</servlet-name>
+        <servlet-class>SortingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SortingServlet</servlet-name>
+        <url-pattern>/SortingServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
 
 
 </web-app>

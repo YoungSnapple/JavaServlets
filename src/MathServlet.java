@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import com.NOTICS.sorting.*;
 
-@WebServlet(name = "Math")
-public class Math extends HttpServlet {
+@WebServlet(name = "MathServlet")
+public class MathServlet extends HttpServlet {
 
     private static double  factorial(double n){
         if (n == 0)
