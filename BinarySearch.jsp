@@ -8,7 +8,7 @@
 </head>
 <body>
 <form action="binarySEARCH" method="post">
-<h1>Enter the array of numbers and the number being searched for.</h1>
+<h1>Enter the array of numbers and the number being searched for.</h1><!-- This is a form to capture the user's array of ints and the int we are searching for  -->
 Enter the array numbers separated with a comma and no brackets[ ]:<input type="text" name="arr1"/><br/>
 Enter search number:<input type="text" name="number"/><br/>
 <input type="submit" value="Submit"/>

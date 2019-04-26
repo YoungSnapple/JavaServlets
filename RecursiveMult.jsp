@@ -10,7 +10,7 @@ Group Project -->
 <title>Recursive Multiplication Method</title>
 </head>
 <body>
-<form action="RecursiveMULT" method="post">
+<form action="RecursiveMULT" method="post"><!-- This is a form to capture the user's two integers that are input,they are saved as strings  -->
 <h1>Enter two numbers for the recursive multiplication method.</h1>
 First number:<input type="text" name="number1"/><br/>
 Second number:<input type="text" name="number2"/><br/>

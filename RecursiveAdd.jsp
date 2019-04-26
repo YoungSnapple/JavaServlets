@@ -10,7 +10,7 @@ Group Project-->
 <title>Recursive Add Method</title>
 </head>
 <body>
-<form action="recursiveADD" method="post">
+<form action="recursiveADD" method="post"><!-- This is a form to capture the user's integer input. They are saved as strings.-->
 <h1>Enter one numbers for the recursive add method.</h1>
 First number:<input type="text" name="number1"/><br/>
 <input type="submit" value="Submit"/>
