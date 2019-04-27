@@ -1,4 +1,4 @@
-<!--Lance Graham
+<!-- By Lance Graham // Updated by Shae Feltz
 IT 214 Section 01
 Group Project-->
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -7,13 +7,14 @@ Group Project-->
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Recursive Add Method</title>
+<title>Triangle Number (Recursive Addition)</title>
 </head>
 <body>
 <form action="recursiveADD" method="post"><!-- This is a form to capture the user's integer input. They are saved as strings.-->
-<h1>Enter one numbers for the recursive add method.</h1>
-First number:<input type="text" name="number1"/><br/>
-<input type="submit" value="Submit"/>
+<h1>Find any triangular number using this calculator!</h1>
+Your Number: <input type="text" name="number1"/><br/>
+    <br/>
+<input type="submit" value="Find Your Triangular Number"/>
 </form>
 <h1></h1>
 <img src="http://mathandmultimedia.com/wp-content/uploads/2010/08/gauss1.png" style="width: 400px;"/>

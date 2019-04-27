@@ -54,7 +54,7 @@ public class RecursiveAdd extends HttpServlet {
 	
 		int n1=Integer.parseInt(request.getParameter("number1"));//capture the user's input from the jsp form and convert that string value to an int
 				
-		out.println("<h1>"+"The sum of the first "+n1+" numbers is "+addRecursive(n1)+"</h1>");//print out the sum of the first n numbers to the web app
+		out.println("<h1>"+"The triangular number of "+n1+" is "+addRecursive(n1)+"</h1>");//print out the sum of the first n numbers to the web app
 
 	}
 
