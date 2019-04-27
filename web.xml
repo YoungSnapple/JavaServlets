@@ -34,8 +34,7 @@ Group Project-->
   <welcome-file-list>
     <welcome-file>RecursiveAdd.jsp</welcome-file>
   </welcome-file-list>
-  
-   <servlet>
+  <servlet>
     <servlet-name>BinarySearch</servlet-name>
     <servlet-class>web.BinarySearch</servlet-class>
   </servlet>
@@ -45,5 +44,27 @@ Group Project-->
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>BinarySearch.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Queue</servlet-name>
+    <servlet-class>web.Queue</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Queue</servlet-name>
+    <url-pattern>/QUEUE</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Queue.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+    <servlet-name>Calculator</servlet-name>
+    <servlet-class>web.Calculator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Calculator</servlet-name>
+    <url-pattern>/CALCULATOR</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Calculator.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
