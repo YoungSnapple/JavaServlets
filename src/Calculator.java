@@ -2,29 +2,19 @@
 // IT 214
 // Group Project
 
-import java.io.IOException;
-import java.io.PrintWriter;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * Servlet implementation class Calculator
  */
 @WebServlet("/Calculator")
 public class Calculator extends HttpServlet {
-
-    public static double multRecursive(double number1, double number2) {
-        if(number1==0||number2==0) {//base case occurs if either of the numbers equals zero
-            return 0;
-        }
-        else {//keeps adding number ones value and recursively calling the function again with number2 minus one
-            return number1+multRecursive(number1,number2-1);//this will eventually sum the numbers up to the value equivalent to the product of the two numbers
-        }
-    }
 
     private static final long serialVersionUID = 1L;
 
@@ -36,12 +26,12 @@ public class Calculator extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-    /**
-     * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-     */
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
-        //response.getWriter().append("Served at: ").append(request.getContextPath());
+    public static double multRecursive(double number1, double number2) {
+        if (number1 == 0 || number2 == 0) {//base case occurs if either of the numbers equals zero
+            return 0;
+        } else {//keeps adding number ones value and recursively calling the function again with number2 minus one
+            return number1 + multRecursive(number1, number2 - 1);//this will eventually sum the numbers up to the value equivalent to the product of the two numbers
+        }
     }
 
     /**
@@ -63,12 +53,18 @@ public class Calculator extends HttpServlet {
         if (operation.equals("Multiplication")) {
             return multRecursive(num1, num2);
 
-        }
-
-        else {
+        } else {
             return num1 / num2;
 
         }
+    }
+
+    /**
+     * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+     */
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // TODO Auto-generated method stub
+        //response.getWriter().append("Served at: ").append(request.getContextPath());
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

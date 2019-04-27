@@ -3,7 +3,7 @@ package com.NOTICS.sorting;
 public class BubbleSort {
 
     // logic to sort the elements
-    private static void bubble_srt(int array[]) {
+    private static void bubble_srt(int[] array) {
         int n = array.length;
         int k;
         for (int m = n; m >= 0; m--) {
@@ -34,7 +34,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
+        int[] input = {4, 2, 9, 6, 23, 12, 34, 0, 1};
         bubble_srt(input);
 
     }

@@ -6,18 +6,18 @@ public class MergeSort {
     private int[] tempMergArr;
     private int length;
 
-    public static void main(String a[]){
+    public static void main(String[] a) {
 
-        int[] inputArr = {45,23,11,89,77,98,4,28,65,43};
+        int[] inputArr = {45, 23, 11, 89, 77, 98, 4, 28, 65, 43};
         MergeSort mms = new MergeSort();
         mms.sort(inputArr);
-        for(int i:inputArr){
+        for (int i : inputArr) {
             System.out.print(i);
             System.out.print(" ");
         }
     }
 
-    public void sort(int inputArr[]) {
+    public void sort(int[] inputArr) {
         this.array = inputArr;
         this.length = inputArr.length;
         this.tempMergArr = new int[length];

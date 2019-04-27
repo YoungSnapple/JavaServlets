@@ -8,7 +8,7 @@ import java.io.IOException;
 @WebServlet(name = "SortingServlet")
 public class SortingServlet extends HttpServlet {
 
-    public int [] workingData;
+    public int[] workingData;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
