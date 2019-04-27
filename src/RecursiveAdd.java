@@ -1,7 +1,6 @@
 //Lance Graham
 //IT 214 Section 01
 //Group Project
-package web;
 
 import java.io.IOException;
 import java.io.PrintWriter;

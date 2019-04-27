@@ -23,12 +23,6 @@ public class QuickSort {
         int pivot = array[lowerIndex+(higherIndex-lowerIndex)/2];
         // Divide into two arrays
         while (i <= j) {
-            /**
-             * In each iteration, we will identify a number from left side which
-             * is greater then the pivot value, and also we will identify a number
-             * from right side which is less then the pivot value. Once the search
-             * is done, then we exchange both numbers.
-             */
             while (array[i] < pivot) {
                 i++;
             }

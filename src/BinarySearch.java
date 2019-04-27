@@ -1,5 +1,4 @@
-//Kyle Peterson and Lance Graham 
-package web;
+//Kyle Peterson and Lance Graham
 
 import java.io.IOException;
 import javax.servlet.ServletException;
