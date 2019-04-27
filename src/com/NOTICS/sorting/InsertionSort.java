@@ -11,7 +11,7 @@ public class InsertionSort {
         }
     }
 
-    private static int[] doInsertionSort(int[] input) {
+    public static int[] doInsertionSort(int[] input) {
 
         int temp;
         for (int i = 1; i < input.length; i++) {
