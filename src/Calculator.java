@@ -16,6 +16,16 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/Calculator")
 public class Calculator extends HttpServlet {
+
+    public static double multRecursive(double number1, double number2) {
+        if(number1==0||number2==0) {//base case occurs if either of the numbers equals zero
+            return 0;
+        }
+        else {//keeps adding number ones value and recursively calling the function again with number2 minus one
+            return number1+multRecursive(number1,number2-1);//this will eventually sum the numbers up to the value equivalent to the product of the two numbers
+        }
+    }
+
     private static final long serialVersionUID = 1L;
 
     /**
@@ -51,7 +61,7 @@ public class Calculator extends HttpServlet {
         }
 
         if (operation.equals("Multiplication")) {
-            return num1 * num2;
+            return multRecursive(num1, num2);
 
         }
 

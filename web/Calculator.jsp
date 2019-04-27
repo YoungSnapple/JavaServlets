@@ -16,7 +16,7 @@ Second number: <input type="text" name="number2"/><br/>
 
     <input type="radio" name="operation" value="Addition"> Addition<br>
     <input type="radio" name="operation" value="Subtraction"> Subtraction<br>
-    <input type="radio" name="operation" value="Multiplication"> Multiplication<br>
+    <input type="radio" name="operation" value="Multiplication"> Multiplication (Using a Recursive Function!)<br>
     <input type="radio" name="operation" value="Division"> Division<br>
     <br/>
     <input type="submit" value="Submit" name="operation">

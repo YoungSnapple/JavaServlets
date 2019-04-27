@@ -18,8 +18,8 @@ Group Project-->
 <body>
 <h1>Cool Math Implementations</h1>
 <img src="https://s3.amazonaws.com/www.mathnasium.com/upload/831/images/Math.jpg" style="width: 400px;"/>  <!-- image -->
-<h1><a href="${pageContext.request.contextPath}/RecursiveAdd.jsp">Triangular Number Calculator (Recursive Addition)</a></h1><!-- These are the hyperlinks, and they are on the index page. The user will click a hyperlink to call a specific servlet. -->
-<h1><a href="${pageContext.request.contextPath}/RecursiveMult.jsp">Recursive Multiplication Function</a></h1>
+<h1><a href="${pageContext.request.contextPath}/RecursiveAdd.jsp">Triangular Number Calculator (Using Recursive Addition!)</a></h1><!-- These are the hyperlinks, and they are on the index page. The user will click a hyperlink to call a specific servlet. -->
+<h1><a href="${pageContext.request.contextPath}/RecursiveMult.jsp">Factorial Calculator (Using Recursive Multiplication!)</a></h1>
 <h1><a href="${pageContext.request.contextPath}/BinarySearch.jsp">Binary Search and Sorting Functions</a></h1>
 <h1><a href="${pageContext.request.contextPath}/Calculator.jsp">Simple Math Calculator</a></h1>
 <h1><a href="${pageContext.request.contextPath}/Queue.jsp">Queue Implementation and Reused Functions</a></h1>

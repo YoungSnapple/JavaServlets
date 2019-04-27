@@ -65,7 +65,7 @@ public class Queue extends HttpServlet {
 		// Initializes secondElement as an int and sets it to the current highest priority
 		// element in the queue
 		out.println("<h1>\nThe product of the first and second integers in the queue is:</h1>");
-		out.println(RecursiveMult.multRecursive(firstElement, secondElement));
+		out.println(Calculator.multRecursive(firstElement, secondElement));
 		// Statement calls the method multRecursive and passes through
 		// firsteElement and secondElement as its parameters and prints to the web app 
 		// the product of the two numbers because the method returns an  int
