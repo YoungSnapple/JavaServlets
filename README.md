@@ -26,6 +26,7 @@ and multiply them and add them together.
 * Provide better documentation
 * Implement all sorting methods with timer
 * Add ability to upload custom CVS files to be used with the sorting & searching servlets
+* edit HTML maybe add CCS to make the website prettier
 
 ## Authors
 
