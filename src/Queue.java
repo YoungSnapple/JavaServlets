@@ -70,7 +70,7 @@ public class Queue extends HttpServlet {
         // firsteElement and secondElement as its parameters and prints to the web app
         // the product of the two numbers because the method returns an  int
         out.println("<h1>\nThe sum of the two numbers is:</h1>");
-        out.println(Calculator.math(firstElement, secondElement, "Add"));//calculate sum of the two numbers using Shae's calculator method
+        out.println(Calculator.math(firstElement, secondElement, "Addition"));//calculate sum of the two numbers using Shae's calculator method
     }
 
 }
